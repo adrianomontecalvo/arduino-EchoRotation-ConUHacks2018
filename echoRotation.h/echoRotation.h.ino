@@ -175,8 +175,8 @@ void loop() {
 }
 
 void moveTargets() {
-  target_x = random(100, 240);
-  target_y = random(100, 240);
+  target_x = random(50, 120);
+  target_y = random(50, 120);
   target_z = 0;
   //set the timer to compare the reaction time to
   target_spawn_time = millis();
