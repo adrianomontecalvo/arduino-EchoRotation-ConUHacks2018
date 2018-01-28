@@ -1,10 +1,4 @@
-/*
-  The code is released under the GNU General Public License.
-  Developed by www.codekraft.it
-*/
-
 #include "CurieIMU.h"
-
 #include "pitches.h"
 
 // notes in the melody:
@@ -172,7 +166,6 @@ void loop() {
       tone(9, melody[thisNote], noteDuration);
 
       // to distinguish the notes, set a minimum time between them.
-      // the note's duration + 30% seems to work well:
       int pauseBetweenNotes = noteDuration * 0.50;
       delay(pauseBetweenNotes);
     }
