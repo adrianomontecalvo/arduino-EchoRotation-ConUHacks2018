@@ -180,6 +180,7 @@ void moveTargets() {
   target_z = 0;
   //set the timer to compare the reaction time to
   target_spawn_time = millis();
+  reactionTime = 0;
   triggered = false;
 }
 
